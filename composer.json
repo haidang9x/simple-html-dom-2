@@ -1,0 +1,26 @@
+{
+    "name": "haidang9x/simple-html-dom-2",
+    "type": "library",
+    "description": "Parse Simple HTML DOM version 2",    
+    "keywords": ["html", "dom", "parser"],
+    "homepage": "https://github.com/haidang9x/simple-html-dom-2",
+    "license": "MIT",
+    "authors": [
+        {   
+            "name": "S.C. Chen",
+            "homepage": "http://sourceforge.net/projects/simplehtmldom/"
+        },
+        {
+            "name": "hai dang",
+            "email": "hopthuhaidang@gmail.com",
+            "homepage": "https://github.com/haidang9x"
+        }   
+    ],
+    "require": {
+        "php": ">=5.6",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-0": { "haidang9x\\PhpSimple\\HtmlDomParser": "Src/" }
+    }    
+}
